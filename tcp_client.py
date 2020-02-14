@@ -10,4 +10,4 @@ s.send(PESAN.encode())
 data = s.recv(BUFFER_SIZE)
 s.close
 
-print('Pesan Diterima : ',data.decode())
+print('Pesan Diterima :',data.decode())
